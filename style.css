@@ -1,0 +1,317 @@
+#queen{
+position: relative;
+    width: 1760px;
+    height: 1000px;
+   
+
+    
+}
+
+#visit{
+    position: absolute;
+    text-align: center;
+    top: 200px;
+    left: 400px;
+    font-size: 100px; 
+    color: white;
+}
+#dive{
+    top: 800px;
+
+}
+#meth{
+   top: 1800px; 
+}
+
+#ras{
+    color: white;
+    top: 500px;
+    left: 650px;
+    position: absolute;
+    text-align: center;
+    font-size: 28px;
+
+}
+#all{
+    display: flex;
+}
+#all1 img{
+width: 650px;
+}
+#all2 img{
+    width: 400px;
+    }
+    #all3 img{
+        width: 500px;
+        }
+#topnav {
+    position: absolute;
+    color: white;
+    top: 50px;
+    left: 300px;
+    display: flex;
+    gap:2px ;
+   
+  
+    
+  }
+  
+  #topnav a {
+    text-align: center;
+    color: white;
+    top: 500px;
+    left: 650px;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+   padding: 20px 20px 20px 20px;
+  
+    font-size: 17px;
+  
+  }
+  
+  #topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  #topnav a.active {
+   
+    color:white;
+    text-align: center;
+  }
+ p button{
+  background-color: lightslategray;
+   width: 250px;
+   height: 55px;
+  }
+  #heading{
+    position: absolute;
+    top: -30px;
+    left: 50px;
+    background-color:  #0f4b24;
+    width: 1700px;
+    height: 40px;
+    text-align: center;
+    color:white;
+    font-size: 20px;
+  }
+  #rasi{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    font-size: 25px;
+    color: white;
+  }
+  #phn{
+    position: absolute;
+    top: 80px;
+    left: 1500px; 
+    width: 40px;
+  }
+
+h3::before{
+content: "";
+display: block;
+width: 1600px;
+height: 2px;
+background: black;
+position: absolute;
+left: 40px;
+/* top: 50%; */
+
+
+}
+#heading4{
+    text-align: center;
+    font-size: 22px;
+    
+}
+
+#line::before{
+    content: "";
+    display: block;
+    width: 1600px;
+    height: 2px;
+    background: black;
+    position: absolute;
+    left: 40px;
+}
+#bedimg{
+    width: 500px;
+    height: 500px;
+}
+#page2{
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+   
+   }
+   #paragraph2{
+    font-size: 25px;
+   }
+
+
+   .callicon1{
+    display: flex;
+    gap: 3%;
+}
+.callicon2{
+    display: flex;
+    gap: 3%;
+}
+.call{
+    display: flex;
+    display: 3%;
+}
+.message{
+    display: flex;
+    gap: 3%;
+}
+.Callmessage{
+    display: flex;
+    margin-left: 70%;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.groupthem{
+    display: flex;
+}
+.classicons{
+    display: flex;
+    margin-left: 70%;
+}
+.big-footer{
+    background-color: gray;
+}
+
+#picsa{
+    display: flex;
+    gap: 3%;
+}
+.pic{
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+}
+#bigpic{
+    width: 900px;
+    height: 800px
+}
+#picsb img{
+    margin-left: 10%;
+   
+    width: 1500px;
+}
+
+@media screen and (min-width:375px) and (max-width:435px){
+    #queen{
+        position: relative;
+            width: 420px;
+            height: 200px;
+           } 
+    #topnav {
+            position: absolute;
+            color: white;
+            top: 10px;
+            left: 5px;
+            display: flex;
+            gap:1px;
+            font-size: 9px;
+           }
+    #topnav a {
+            text-align: center;
+            color: white;
+            top: 100px;
+            left: 150px;
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+           padding: 10px 10px 10px 10px;
+          
+            font-size: 11px;
+          
+          }
+          #heading{
+            position: absolute;
+            top: -18px;
+            left: 20px;
+            background-color:  #0f4b24;
+            width: 320px;
+            height: 30px;
+            text-align: center;
+            color:white;
+            font-size: 11px;
+          }
+          #phn{
+            position: absolute;
+            top: 50px;
+            left: 380px; 
+            width: 28px;
+          } 
+          h3::before{
+            content: "";
+            display: block;
+            width: 360px;
+            height: 2px;
+            background: black;
+            position: absolute;
+            left: 20px;
+            /* top: 50%; */
+            
+            
+            }
+            #line::before{
+                content: "";
+                display: block;
+                width: 360px;
+                height: 2px;
+                background: black;
+                position: absolute;
+                left: 20px;
+            }
+        #page2{
+           display: block;
+        }  
+         .letter{
+            font-size: 11px;
+         }
+         #paragraph2{
+            font-size: 11px;
+         }
+         #bedimg{
+            width: 350px;
+            height: 300px;
+        }
+     #picsa{
+        display: block;
+        
+     }
+     .pic{
+        width: 300px;
+        height: 200px;
+     }
+    #picsb img{
+        width: 320px;
+        height: 300px;
+        left:20px;
+    }
+    .footer{
+        display: block;
+        /* justify-content: space-evenly; */
+   
+    }
+    .big-footer{
+        background-color: gray;
+        width: 360px;
+    }
+    .btn{
+        /* left:30px; */
+        margin-left: 500px;
+        margin-top: 30px;
+    }
+}
+
+
